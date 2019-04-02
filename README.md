@@ -1,2 +1,5 @@
 # Smith-Anderson
-use flex, hover animation
+
+
+GitHub Pages: https://nataliebutr.github.io/Smith-Anderson
+
