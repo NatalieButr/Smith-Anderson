@@ -1,0 +1,356 @@
+body {
+	margin:0;
+	padding: 0;
+}
+a,p,h1 { 
+	text-decoration: none;
+	color: white;
+	font-style: none;
+	margin: 0;
+	padding:0;
+	}
+li {
+    list-style-type: none; 
+   }
+ul {
+    margin-left: 0; 
+    padding-left: 0; 
+   }
+header {
+	box-sizing: border-box;
+	height: 89px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	
+}
+.head {
+	box-sizing: border-box;
+	height: 89px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width:100%;
+align-items: center;
+
+}
+
+.mainmenu {
+	background-color: #323232;
+	width:100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 63px;
+	z-index: 5;
+	box-sizing: border-box;
+} 
+ 
+.mainmenu a:hover {
+color: #2eb398;
+
+}  
+
+.smith {width: 100%;
+height: 342px;
+background-color: #2eb398;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; }
+.container {
+	display: flex;
+	flex-direction: row;
+	width: 821px; 
+	justify-content: space-between;
+	}
+.logotypes {
+	display: flex;
+	margin-right: 20px;
+	justify-content: flex-end;
+}
+.order { height: 565px;
+		width: 100%;
+		background-color: #323232; 
+		display: flex;
+		font-family: 'Maven Pro', sans-serif;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		padding: 15px 0;
+		color: #bebebe;
+	}
+.inorder {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.getit {
+	font-size: 30px;
+}
+.log{
+	z-index: 2;
+	display: flex;
+	margin-top: 12px;
+}
+.orderformtwo {
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 0;
+	margin-right: 20px;
+}
+.orderformtwo p {
+  line-height: 1.797;
+  margin: 0;
+}
+
+.qui {
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	display: inline-block;
+}
+
+button {
+	width: 92px; 
+	height: 38px;
+	color: white;
+	background-color: #2eb398;
+	border:0;
+	float: right;
+}
+.textorder {
+	width: 800px;
+}
+.info {
+	display: flex;
+	flex-direction: column;
+	width: 180px;
+	margin-top: 41px;
+	}
+.location {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.location p {
+	margin-left: 3px;
+
+	display: inline-block;
+	line-height: 0;
+  
+}
+.locimg {
+	width: 20px;
+	height: 12px;
+	display: inline-block;
+	float: left;
+}
+input {
+	width: 580px;
+	height: 40px;
+	padding: 0;
+	border:0;
+	background-color: #454545;
+	margin-bottom: 15px;
+	font-size: 12px;
+	color: #bebebe;
+}
+textarea {
+	width: 580px;
+	height: 150px;
+	padding: 0;
+	border:0;
+	background-color: #454545;
+	margin-bottom: 15px;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	
+}
+.footer {
+	height: 43px;
+	background-color: #222222;
+	display: flex;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 12px;
+
+	padding: 15px 40px;
+	box-sizing: border-box;
+  }
+.footer p {
+	color: rgb(69, 69, 69);
+}
+
+.orderform {
+	display: flex;
+	flex-direction: column;	
+}
+
+.headlinks   {
+	width:373px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0;
+}
+.headlinks li a {
+	display: flex;
+	margin-top: 31px;
+	font-family: 'Lato', sans-serif;
+	font-size: 10px;
+	margin-right: 5px;
+}
+.headertwo {
+	width: 1020px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.headertwo img {
+  background-color: rgb(228, 233, 235);
+  width: 410px;
+  height: 1px;
+  z-index: 4;
+
+ }
+.slider {
+	width: 100%;
+	height: 695px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.threerows {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	height: 610px;
+}
+
+.maintr {
+display: flex;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 27px 47.5px 0 47.5px;
+border-color: #323232 transparent transparent transparent;
+z-index: 1;
+margin: 0 25px;
+}
+
+.firstrow {
+	width: 822px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: -40px;
+}
+.sepvert {
+	  width: 1px;
+  height: 104px;
+ 
+}
+.septop {
+  width: 960px;
+  height: 1px;
+  margin-bottom: 9px;
+}
+
+.secondrow {
+	width: 980px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: -40px;
+}
+.thirdrow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 822px;
+}
+.tworows {
+	height: 85px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+}
+.fourthrow { 
+	display: flex;
+	width: 969px;
+	justify-content: row; 
+}
+.fourthrow img {
+	margin-left: 3px;
+	margin-bottom:5px;
+}
+#hexagon {
+	width: 180px;
+	height: 208px;
+}
+
+.smithphoto { 
+	width: 215px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 316px;
+}
+.aboutsmith {
+	width:600px;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.smithname {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+	color: #d7fcf5;
+}
+.smithjob {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	color: #20816d;
+	margin-bottom: 15px;
+}
+
+.smithbio  {
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #d7fcf5;
+	line-height: 1.797;
+	margin-right: 20px;
+	margin-bottom: 35px;
+
+}
+.form {
+	padding-bottom: 28px;
+	padding-left: 35px;
+}
+
+.logotypes a:hover {
+	background-color: white;
+}
+
+#hexagon img:hover {
+	
+	 -webkit-transform: rotateZ(70deg);
+      -ms-transform: rotateZ(70deg);
+       transform: rotateZ(70deg);
+}
